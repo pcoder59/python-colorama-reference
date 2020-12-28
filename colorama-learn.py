@@ -22,7 +22,7 @@ print("Fore.CYAN " + Back.BLACK + Fore.CYAN + "CYAN")
 print("Fore.WHITE " + Back.BLACK + Fore.WHITE + "WHITE")
 print("Fore.RESET " + Fore.RESET + "RESET\n")
 
-print("Here is a list of Highlights Supported by Colorama:\n");
+print("Here is a list of Highlights Supported by Colorama:\n")
 
 """Text Color Set to Black For Everything Except Black and Reset"""
 
