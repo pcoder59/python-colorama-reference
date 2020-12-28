@@ -4,6 +4,6 @@ from colorama import Fore, Back, Style
 
 colorama.init()
 
-print("Fore.RED: " + Fore.RED + "This Will Print Red Text")
+print("Fore.RED : " + Fore.RED + "This Will Print Red Text")
 print("This will be Red if autoreset is not True in init()")
-print("\033[39m")
+print("\\033[39m :" + "\033[39m" + "This will Make Text Normal. Not Required if autoreset=True in init()")
