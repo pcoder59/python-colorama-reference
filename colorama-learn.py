@@ -12,13 +12,13 @@ print("Here is a list of Colours Supported By Colorama:\n")
 
 """Giving a Background of Black to all Except Black and Reset since Terminal Color can Differ"""
 
-print(Back.WHITE + Fore.BLACK + "BLACK")
-print(Back.BLACK + Fore.RED + "RED")
-print(Back.BLACK + Fore.GREEN + "GREEN")
-print(Back.BLACK + Fore.YELLOW + "YELLOW")
-print(Back.BLACK + Fore.BLUE + "BLUE")
-print(Back.BLACK + Fore.MAGENTA + "MAGENTA")
-print(Back.BLACK + Fore.CYAN + "CYAN")
-print(Back.BLACK + Fore.WHITE + "WHITE")
-print(Fore.RESET + "RESET\n")
+print("Fore.BLACK " + Back.WHITE + Fore.BLACK + "BLACK")
+print("Fore.RED " + Back.BLACK + Fore.RED + "RED")
+print("Fore.GREEN " + Back.BLACK + Fore.GREEN + "GREEN")
+print("Fore.YELLOW " + Back.BLACK + Fore.YELLOW + "YELLOW")
+print("Fore.BLUE " + Back.BLACK + Fore.BLUE + "BLUE")
+print("Fore.MAGENTA " + Back.BLACK + Fore.MAGENTA + "MAGENTA")
+print("Fore.CYAN " + Back.BLACK + Fore.CYAN + "CYAN")
+print("Fore.WHITE " + Back.BLACK + Fore.WHITE + "WHITE")
+print("Fore.RESET " + Fore.RESET + "RESET\n")
 
