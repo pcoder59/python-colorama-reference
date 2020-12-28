@@ -22,3 +22,16 @@ print("Fore.CYAN " + Back.BLACK + Fore.CYAN + "CYAN")
 print("Fore.WHITE " + Back.BLACK + Fore.WHITE + "WHITE")
 print("Fore.RESET " + Fore.RESET + "RESET\n")
 
+print("Here is a list of Highlights Supported by Colorama:\n");
+
+"""Text Color Set to Black For Everything Except Black and Reset"""
+
+print("Back.BLACK " + Back.BLACK + Fore.WHITE + "BLACK")
+print("Back.RED " + Back.RED + Fore.BLACK + "RED")
+print("Back.GREEN " + Back.GREEN + Fore.BLACK + "GREEN")
+print("Back.YELLOW " + Back.YELLOW + Fore.BLACK + "YELLOW")
+print("Back.BLUE " + Back.BLUE + Fore.BLACK + "BLUE")
+print("Back.MAGENTA " + Back.MAGENTA + Fore.BLACK + "MAGENTA")
+print("Back.CYAN " + Back.CYAN + Fore.BLACK + "CYAN")
+print("Back.WHITE " + Back.WHITE + Fore.BLACK + "WHITE")
+print("Back.RESET " + Back.RESET + "RESET")
