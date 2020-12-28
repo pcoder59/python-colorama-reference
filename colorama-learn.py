@@ -34,4 +34,11 @@ print("Back.BLUE " + Back.BLUE + Fore.BLACK + "BLUE")
 print("Back.MAGENTA " + Back.MAGENTA + Fore.BLACK + "MAGENTA")
 print("Back.CYAN " + Back.CYAN + Fore.BLACK + "CYAN")
 print("Back.WHITE " + Back.WHITE + Fore.BLACK + "WHITE")
-print("Back.RESET " + Back.RESET + "RESET")
+print("Back.RESET " + Back.RESET + "RESET\n")
+
+print("Here is a list of Style Supported By Colorama:\n")
+
+print("Style.DIM " + Style.DIM + "DIM")
+print("Style.NORMAL " + Style.NORMAL + "NORMAL")
+print("Style.BRIGHT " + Style.BRIGHT + "BRIGHT")
+print("Style.RESET_ALL " + Style.RESET_ALL + "'RESET ALL STYLES'")
