@@ -2,7 +2,7 @@ import colorama
 
 from colorama import Fore, Back, Style
 
-colorama.init()
+colorama.init(autoreset=True)
 
 print("Fore.RED : " + Fore.RED + "This Will Print Red Text")
 print("This will be Red if autoreset is not True in init()")
